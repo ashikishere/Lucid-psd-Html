@@ -82,21 +82,21 @@ li {
 .header .bg-light {
   background: transparent !important;
 }
-.header .navbar-light .navbar-nav .nav-link.active,
-.header .navbar-light .navbar-nav .show > .nav-link {
+.header .navbar-dark .navbar-nav .nav-link.active,
+.header .navbar-dark .navbar-nav .show > .nav-link {
   color: #f0f0f0;
   background: url(../images/underline.png) center bottom no-repeat;
   background-size: auto;
 }
-.header .navbar-light .navbar-nav .nav-link {
+.header .navbar-dark .navbar-nav .nav-link {
   color: #f0f0f0;
   font-size: 14px;
   font-weight: 600;
   margin-left: 15px;
   text-transform: capitalize;
 }
-.header .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--primary);
+.header .navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--primary) !important;
   background: url(../images/underline.png) center bottom no-repeat;
   background-size: auto;
 }
@@ -400,7 +400,7 @@ li {
   color: #1a1a1a;
   background: #098ed4;
 }
-/* active */
+/* active
 .pricing .card.active .card-title {
   color: #fff;
 }
@@ -417,7 +417,7 @@ li {
   background: #098ed4;
   color: #fff;
   border-color: #098ed4 !important;
-}
+} */
 /********************* Pricing section css  end********************/
 
 /********************* Contact section css  start********************/
