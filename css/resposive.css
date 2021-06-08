@@ -11,6 +11,13 @@
   .navbar-nav {
     margin-top: 20px;
   }
+  .header .navbar-dark .navbar-nav .nav-link.active,
+  .header .navbar-dark .navbar-nav .show > .nav-link {
+    background-position: left bottom;
+  }
+  .header .navbar-dark .navbar-nav .nav-link:hover {
+    background-position: left bottom;
+  }
   /* baner */
   .banner {
     padding: 40px 0px;
@@ -179,6 +186,13 @@
   .navbar-nav {
     margin-top: 20px;
   }
+  .header .navbar-dark .navbar-nav .nav-link.active,
+  .header .navbar-dark .navbar-nav .show > .nav-link {
+    background-position: left bottom;
+  }
+  .header .navbar-dark .navbar-nav .nav-link:hover {
+    background-position: left bottom;
+  }
   /* baner */
   .banner {
     padding: 50px 0px;
@@ -320,7 +334,15 @@
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
-
+@media (min-width: 768px) and (max-width: 991px) {
+  .header .navbar-dark .navbar-nav .nav-link.active,
+  .header .navbar-dark .navbar-nav .show > .nav-link {
+    background-position: left bottom;
+  }
+  .header .navbar-dark .navbar-nav .nav-link:hover {
+    background-position: left bottom;
+  }
+}
 @media (min-width: 768px) and (max-width: 1023px) {
   /* css */
   .header {
@@ -329,6 +351,7 @@
   .navbar-nav {
     margin-top: 20px;
   }
+
   /* baner */
   .banner {
     padding: 60px 0px;
