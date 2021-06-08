@@ -1,0 +1,538 @@
+/*
+
+░█████╗░░█████╗░██████╗░███████╗  ██╗░░░░░██╗██╗░░██╗███████╗  ██████╗░░█████╗░░█████╗░░██████╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝  ██║░░░░░██║██║░██╔╝██╔════╝  ██╔══██╗██╔══██╗██╔══██╗██╔════╝
+██║░░╚═╝██║░░██║██║░░██║█████╗░░  ██║░░░░░██║█████═╝░█████╗░░  ██████╦╝██║░░██║██║░░██║╚█████╗░
+██║░░██╗██║░░██║██║░░██║██╔══╝░░  ██║░░░░░██║██╔═██╗░██╔══╝░░  ██╔══██╗██║░░██║██║░░██║░╚═══██╗
+╚█████╔╝╚█████╔╝██████╔╝███████╗  ███████╗██║██║░╚██╗███████╗  ██████╦╝╚█████╔╝╚█████╔╝██████╔╝
+░╚════╝░░╚════╝░╚═════╝░╚══════╝  ╚══════╝╚═╝╚═╝░░╚═╝╚══════╝  ╚═════╝░░╚════╝░░╚════╝░╚═════╝░
+
+░██╗░░░░░░░██╗██╗████████╗██╗░░██╗  ░█████╗░███████╗
+░██║░░██╗░░██║██║╚══██╔══╝██║░░██║  ██╔══██╗╚════██║
+░╚██╗████╗██╔╝██║░░░██║░░░███████║  ███████║░░███╔═╝
+░░████╔═████║░██║░░░██║░░░██╔══██║  ██╔══██║██╔══╝░░
+░░╚██╔╝░╚██╔╝░██║░░░██║░░░██║░░██║  ██║░░██║███████╗
+░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝  ╚═╝░░╚═╝╚══════╝
+
+ */
+
+/***************************************************************************************
+*****************************************************************************************
+*******************  Author Name: Az Ashik  ******************* 
+*******************  Design : lucid Responsive Design******************* 
+*******************  work: psd to html ******************* 
+*******************   Bootstrap version : 5 ******************* 
+*******************  font-awesome version :font awesome 5 pro ******************* 
+*****************************************************************************************
+*****************************************************************************************/
+
+/* FONT  AND COLOR*/
+
+:root {
+  --main-font: "Source Sans Pro", sans-serif;
+
+  /* color use */
+  --primary: #098ed4;
+  --white: #fff;
+  --light-white: #f1f1f1;
+  --black: #1a1a1a;
+  --dark-black: #141319;
+  --gray: #999999;
+  --light-gray: #e0e0e0;
+  --dark-gray: #ececec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--main-font);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/*********************** Landing page css  start******************/
+
+.header {
+  width: 100%;
+  background: url(../images/banner.png) center top no-repeat;
+  background-size: cover;
+}
+.header-menu {
+  width: 100%;
+}
+.header .bg-light {
+  background: transparent !important;
+}
+.header .navbar-light .navbar-nav .nav-link.active,
+.header .navbar-light .navbar-nav .show > .nav-link {
+  color: #f0f0f0;
+  background: url(../images/underline.png) center bottom no-repeat;
+  background-size: auto;
+}
+.header .navbar-light .navbar-nav .nav-link {
+  color: #f0f0f0;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 15px;
+  text-transform: capitalize;
+}
+.header .navbar-light .navbar-nav .nav-link:hover {
+  color: var(--primary);
+  background: url(../images/underline.png) center bottom no-repeat;
+  background-size: auto;
+}
+/* banner css here */
+.banner {
+  width: 100%;
+  padding: 100px 0px;
+}
+.banner .banner-inner {
+  width: 60%;
+  padding-right: 60px;
+}
+.banner .banner-inner h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--primary);
+}
+.banner .banner-inner h1 {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--white);
+  margin-bottom: 25px;
+}
+.banner .banner-inner p {
+  width: 80%;
+  padding: 0px 60px 0px 0px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.banner .banner-inner .banner-btns {
+  width: 100%;
+  margin: 50px 0px 0px;
+}
+.banner .banner-inner .banner-btns .btn-primary {
+  padding: 15px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: var(--primary);
+  color: var(--white);
+  border: 1px solid var(--primary);
+  transition: 0.5s;
+  margin-right: 25px;
+}
+.banner .banner-inner .banner-btns .btn-primary:hover,
+.banner .banner-inner .banner-btns .btn-primary:focus {
+  background: transparent;
+  border: 1px solid var(--white);
+}
+.banner .banner-inner .banner-btns .btn-secondary {
+  padding: 15px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+  transition: 1s;
+}
+.banner .banner-inner .banner-btns .btn-secondary:hover,
+.banner .banner-inner .banner-btns .btn-secondary:focus {
+  background: var(--primary);
+  color: var(--white);
+  border: 1px solid var(--primary);
+}
+/********************* Landing page css  end********************/
+
+/* Global title for all */
+
+.title {
+  width: 100%;
+  padding: 0px 0px 80px;
+}
+.title h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--primary);
+}
+.title h1 {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--black);
+  margin-bottom: 15px;
+}
+
+/********************* features section css  start********************/
+.features {
+  width: 100%;
+  padding: 80px 0px;
+}
+.feature-item {
+  width: 100%;
+  text-align: center;
+}
+.feature-item .icon {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  margin: 0 auto 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.feature-item .icon:hover {
+  background: #f2f2f2;
+}
+
+.feature-item h5 {
+  font-size: 18px;
+  line-height: 1.7em;
+  font-weight: 600;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.feature-item p {
+  padding: 0px 40px;
+  font-size: 14px;
+  line-height: 1.7em;
+  font-weight: 600;
+  color: #999;
+}
+/********************* features section css  end********************/
+
+/********************* about long section css  start********************/
+.about-long {
+  width: 100%;
+  padding: 80px 0px;
+  border-top: 1px solid #e0e0e0;
+  background: #ffffff;
+}
+.about-long .about-long-inner {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.about-long .about-long-inner .title {
+  width: 100%;
+  padding: 0px 0px 40px;
+}
+.about-long .about-long-inner .title h1 {
+  font-size: 44px;
+}
+.about-long .about-long-inner p {
+  font-size: 14px;
+  line-height: 1.7em;
+  font-weight: 600;
+  color: #999;
+}
+.about-long .about-long-inner ul {
+  padding: 0px;
+  margin: 35px 0px 0px;
+}
+.about-long .about-long-inner ul li {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1b1b1b;
+  line-height: 1.7em;
+  margin: 0px 0px 10px;
+}
+.about-long .about-long-inner ul li i {
+  color: #098ed4;
+  font-size: 17px;
+  margin-right: 20px;
+  width: 10px;
+}
+/********************* about long section css  end********************/
+
+/********************* about short section css  start********************/
+.about-short {
+  width: 100%;
+  padding: 80px 0px;
+  background-color: #f1f1f1;
+}
+.about-short .about-short-inner {
+  width: 100%;
+  margin-top: 45px;
+}
+.about-short .about-short-inner .title h4 {
+  font-weight: 700;
+}
+.about-short .about-short-inner .title h1 {
+  font-size: 36px;
+}
+.about-short .about-short-inner p {
+  font-size: 14px;
+  line-height: 1.7em;
+  font-weight: 600;
+  color: #999;
+}
+/********************* about short section css  end********************/
+
+/********************* Testimonial section css  start********************/
+.tesimonial {
+  width: 100%;
+  background: url(../images/testimonial-banner.png) center top no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+.tesimonial .title h1 {
+  color: #fff;
+}
+.tesimonial .owl-carousel .item h5 {
+  font-size: 17px;
+  line-height: 1.7em;
+  font-weight: 500;
+  font-style: italic;
+  color: #f0f0f0;
+  margin-bottom: 25px;
+}
+.tesimonial .owl-carousel .item .clients {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.tesimonial .owl-carousel .item p {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.tesimonial .owl-carousel .item h6 {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.tesimonial .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 60px;
+}
+.tesimonial .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #098ed4 !important;
+  width: 15px;
+  height: 15px;
+  margin: 3px 7px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background: transparent !important;
+  border: 1px solid #999;
+}
+/********************* Testimonial section css  end********************/
+
+/********************* Pricing section css  start********************/
+.pricing {
+  width: 100%;
+  padding: 80px 0px;
+}
+.pricing .card .fw-normal {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.pricing .card .price {
+  padding: 20px 0px;
+}
+.pricing .card .card-title {
+  margin-bottom: 0px;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+}
+.pricing .card .card-body p {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 600;
+  color: #999;
+  padding: 0px 40px;
+  margin: 25px 0px;
+}
+.pricing .card .card-body p span {
+  color: #098ed4;
+}
+.pricing .card .card-body .btn-outline-primary {
+  width: 70%;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-color: #999 !important;
+  color: #098ed4;
+  letter-spacing: 1px;
+}
+.pricing .card .card-body .btn-outline-primary:hover {
+  color: #1a1a1a;
+  background: #098ed4;
+}
+/* active */
+.pricing .card.active .card-title {
+  color: #fff;
+}
+.pricing .card.active .price h6 {
+  color: #fff !important;
+}
+.pricing .card.active .price {
+  background: #098ed4;
+}
+.pricing .card.active .fw-normal {
+  color: #098ed4;
+}
+.pricing .card.active .card-body .btn-outline-primary {
+  background: #098ed4;
+  color: #fff;
+  border-color: #098ed4 !important;
+}
+/********************* Pricing section css  end********************/
+
+/********************* Contact section css  start********************/
+.contact {
+  width: 100%;
+  padding: 80px 0px 0px;
+  background: #ececec;
+  /* position: relative; */
+}
+
+.contact-icons p {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 400;
+  color: #999;
+  margin-top: 30px;
+}
+.inner-contact {
+  width: 100%;
+  position: relative;
+  height: 450px;
+  /* border: 1px solid red; */
+}
+.contact-form {
+  width: 70%;
+  margin: 0px auto;
+  background: #141319;
+  padding: 60px;
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.text-box {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #999;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #999;
+}
+.message-box {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #999;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #999;
+}
+.contact-form .btn-primary {
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contact-btn-box {
+  width: 100%;
+  margin-top: 20px;
+}
+/********************* Contact section css  end********************/
+
+/********************* map section css  start********************/
+.map {
+  width: 100%;
+}
+.map .google-map {
+  width: 100%;
+  height: 450px;
+  margin: 0px;
+  padding: 0px;
+}
+/********************* map section css  end********************/
+
+/********************* footer section css  start********************/
+.footer {
+  margin-top: -7px;
+  width: 100%;
+  background: #000;
+  padding: 40px 0px;
+  text-align: center;
+}
+.footer-inner {
+  width: 100%;
+}
+.footer-inner ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-inner ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.footer-inner ul li a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444348;
+  margin-left: 20px;
+}
+.footer-inner ul li a:hover {
+  color: #098ed4;
+}
+.footer-inner p {
+  font-size: 14px;
+  line-height: 1.7em;
+  font-weight: 600;
+  color: #444348;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+/********************* footer section css  end********************/

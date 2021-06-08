@@ -1,0 +1,454 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 100px) and (max-width: 480px) {
+  /* css */
+  .header {
+    background-position: left top;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  /* baner */
+  .banner {
+    padding: 40px 0px;
+    text-align: center;
+  }
+  .banner .banner-inner {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .banner .banner-inner h4 {
+    font-size: 14px;
+  }
+  .banner .banner-inner h1 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+  .banner .banner-inner p {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  .banner .banner-inner .banner-btns {
+    margin: 30px 0px 0px;
+  }
+  .banner .banner-inner .banner-btns .btn-primary {
+    margin-bottom: 15px;
+    margin-right: 0px;
+    width: 70%;
+  }
+  .banner .banner-inner .banner-btns .btn-secondary {
+    width: 70%;
+  }
+  /* Global title for all */
+  .title {
+    padding: 0px 0px 40px;
+  }
+  .title h4 {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .title h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  /* features */
+  .features {
+    padding: 40px 0px;
+  }
+  .feature-item {
+    margin-bottom: 20px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+      rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    padding: 10px;
+  }
+  .feature-item .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+  }
+  .feature-item p {
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+  /* about long */
+  .about-long {
+    padding: 40px 0px;
+  }
+  .about-long .about-long-inner {
+    margin-top: 0px;
+  }
+  .about-long .about-long-inner .title {
+    /* text-align: center; */
+    padding: 0px 0px 35px;
+  }
+  .about-long .about-long-inner .title h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .about-long .about-long-inner ul {
+    margin: 20px 0px 0px;
+  }
+  .about-long .about-long-inner ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .about-long .about-long-inner ul li i {
+    font-size: 14px;
+    margin-right: 12px;
+  }
+  /* about short */
+  .about-short {
+    padding: 40px 0px;
+  }
+  .about-short .about-short-inner {
+    margin-top: 0px;
+  }
+  .about-short .about-short-inner .title {
+    text-align: right;
+  }
+  .about-short .about-short-inner .title h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  /* Testimonial */
+  .tesimonial {
+    padding: 40px 0px;
+  }
+  .tesimonial .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 30px;
+  }
+  /* pricing */
+  .pricing {
+    padding: 40px 0px;
+  }
+  /* contact */
+  .contact {
+    padding: 40px 0px 0px;
+  }
+  .contact-icons p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+  .inner-contact {
+    height: auto;
+  }
+  .contact-form {
+    width: 100%;
+    position: static;
+    transform: none;
+    padding: 20px;
+  }
+  .map .google-map {
+    height: 300px;
+  }
+  .footer {
+    padding: 30px 0px;
+  }
+  .footer-inner ul li {
+    margin-right: 10px;
+  }
+  .footer-inner ul li a {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer-inner p {
+    margin-top: 10px;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* css */
+  .header {
+    background-position: left top;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  /* baner */
+  .banner {
+    padding: 50px 0px;
+    text-align: left;
+  }
+  .banner .banner-inner {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 15px;
+  }
+  .banner .banner-inner h4 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .banner .banner-inner h1 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+  .banner .banner-inner p {
+    width: 100%;
+    padding: 0px 10px 0px 0px;
+    margin-bottom: 10px;
+  }
+  .banner .banner-inner .banner-btns {
+    margin: 30px 0px 0px;
+  }
+  .banner .banner-inner .banner-btns .btn-primary {
+    margin-right: 15px;
+  }
+  /* Global title for all */
+  .title {
+    padding: 0px 0px 50px;
+  }
+  .title h4 {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2px;
+  }
+  .title h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  /* features */
+  .features {
+    padding: 50px 0px;
+  }
+  .feature-item {
+    margin-bottom: 20px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+      rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    padding: 15px 10px;
+  }
+  .feature-item p {
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+  /* about long */
+  .about-long {
+    padding: 50px 0px;
+  }
+  .about-long .about-long-inner {
+    margin-top: 0px;
+  }
+  .about-long .about-long-inner .title {
+    padding: 0px 0px 35px;
+  }
+  .about-long .about-long-inner ul {
+    margin: 20px 0px 0px;
+  }
+  .about-long .about-long-inner ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .about-long .about-long-inner ul li i {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  /* about short */
+  .about-short {
+    padding: 50px 0px;
+  }
+  .about-short .about-short-inner {
+    margin-top: 0px;
+  }
+  .about-short .about-short-inner .title {
+    text-align: right;
+  }
+
+  /* Testimonial */
+  .tesimonial {
+    padding: 40px 0px;
+  }
+  .tesimonial .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 30px;
+  }
+  /* pricing */
+  .pricing {
+    padding: 50px 0px;
+  }
+  /* contact */
+  .contact {
+    padding: 40px 0px 0px;
+  }
+  .contact-icons p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+  .inner-contact {
+    height: auto;
+  }
+  .contact-form {
+    width: 100%;
+    position: static;
+    transform: none;
+    padding: 20px;
+  }
+  .map .google-map {
+    height: 300px;
+  }
+  .footer {
+    padding: 30px 0px;
+  }
+  .footer-inner ul li {
+    margin-right: 10px;
+  }
+  .footer-inner ul li a {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer-inner p {
+    margin-top: 10px;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* css */
+  .header {
+    background-position: left top;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  /* baner */
+  .banner {
+    padding: 60px 0px;
+  }
+  .banner .banner-inner {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .banner .banner-inner .banner-btns {
+    margin: 30px 0px 0px;
+  }
+  /* Global title for all */
+  .title {
+    padding: 0px 0px 60px;
+  }
+  .features {
+    padding: 60px 0px;
+  }
+  .feature-item {
+    margin-bottom: 20px;
+  }
+  .feature-item p {
+    margin-bottom: 0px;
+  }
+
+  .about-long {
+    padding: 60px 0px;
+  }
+  .about-long .img-fluid {
+    margin-top: 42px !important;
+  }
+  .about-long .about-long-inner {
+    margin-top: 0px;
+  }
+  .about-long .about-long-inner .title h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .about-short {
+    padding: 40px 0px;
+  }
+  .about-short .about-short-inner {
+    margin-top: 0px;
+  }
+  .about-short .img-fluid {
+    margin-top: 50px;
+  }
+  .about-short .about-short-inner .title {
+    padding-bottom: 30px;
+  }
+  .about-short .about-short-inner .title h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .tesimonial {
+    padding: 60px 0px;
+  }
+  .pricing {
+    padding: 40px 0px;
+  }
+  .contact {
+    padding: 60px 0px 0px;
+  }
+  .inner-contact {
+    height: auto;
+    margin-top: 40px;
+  }
+  .contact-form {
+    width: 100%;
+    position: static;
+    transform: none;
+    padding: 40px;
+  }
+  .footer {
+    padding: 40px 0px;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* CSS */
+  .title {
+    width: 100%;
+    padding: 0px 0px 60px;
+  }
+  .title h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .feature-item p {
+    padding: 0px 10px;
+  }
+  .pricing .card .card-body p {
+    padding: 0px 10px;
+    margin: 15px 0px;
+  }
+  .pricing .card .card-body .btn-outline-primary {
+    width: 88%;
+  }
+  .about-long .about-long-inner .title h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .about-short .about-short-inner .title h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .inner-contact {
+    height: 450px;
+    /* border: 1px solid red; */
+  }
+  .contact-form {
+    bottom: -15%;
+  }
+  /* end */
+}
