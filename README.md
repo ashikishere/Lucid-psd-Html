@@ -4,7 +4,17 @@
 
 ![ project-6](./images/lucid.png)
 
-### Hi there, I'm Ashikur Zaman - aka [AZ Ashik][facebook] 👋
+## MAKE WITH
+
+- HTML5
+
+- CSS3
+
+- BOOTSRAP 5
+
+- OWL CAROUSEL
+
+ ### Hi there, I'm Ashikur Zaman - aka [AZ Ashik][facebook] 👋
 
 ## I'm a student, Front-end Web-Developer, and Game lover!!
 
