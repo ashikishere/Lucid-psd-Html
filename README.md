@@ -2,7 +2,7 @@
 
 # This is For my assignment
 
-![ project-6](./images/thumnail.png)
+![ project-6](./images/lucid.png)
 
 ### Hi there, I'm Ashikur Zaman - aka [AZ Ashik][facebook] 👋
 
