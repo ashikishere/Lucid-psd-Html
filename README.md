@@ -1,4 +1,4 @@
-# E-School-Figma-to-Html
+# Lucid-PSD-to-Html
 
 # This is For my assignment
 
